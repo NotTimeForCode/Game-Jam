@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper, scissors</title>
+    <link rel="stylesheet" href="RPS.css">
+    <script src="RPS.js" defer></script>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div id="playerField">
+            <div id="btn-container">
+                <button onclick="player(0)" id="btn">Rock</button>
+                <button onclick="player(1)" id="btn">Paper</button>
+                <button onclick="player(2)" id="btn">Scissors</button>
+            </div>
+            <div id="choice-container">
+                <h2>Your choice</h2>
+                <h2 id="playerChoice"></h2>
+            </div>
+        </div>
+        <h2 id="victor">To be determined!</h2>
+        <div id="enemyField">
+            <h2>Enemy's choice</h2>
+            <h2 id="Enemy"></h2>
+        </div>
+    </div>
+</body>
+</html>
