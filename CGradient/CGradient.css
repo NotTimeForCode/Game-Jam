@@ -1,0 +1,28 @@
+body {
+    height: 98.3vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+button.b1 {
+    color: white;
+    background-color: rgb(76, 76, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+button.b1:hover {
+    border: 3px solid rgb(38, 0, 255);
+}
+
+#disptext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}

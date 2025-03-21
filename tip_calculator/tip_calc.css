@@ -1,0 +1,26 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#app-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#form-container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.formItem {
+    margin-bottom: 8px;
+}
